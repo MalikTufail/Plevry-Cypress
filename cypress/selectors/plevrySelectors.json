@@ -1,0 +1,8 @@
+{
+    "login": {
+        "username": "input[name='email']",
+        "userPassword": "input[type='password']",
+        "signIn": "/*//button",
+        "validationLogin": "/*//p[@class='ErrorMessage__StyledParagraph-sc-182nu82-0 bkluXT']"
+    }
+}

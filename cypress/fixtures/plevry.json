@@ -1,0 +1,13 @@
+{
+    "email": "dummyEmail@email.com",
+    "password": "@Admin1234",
+    "emailCapital": "dummyEmail@email.com",
+    "passwordCapital": "@ADMIN1234",
+    "invalidEmail": "dummyEmail@plevry.com",
+    "invalidPassword": "Aav@bacaaca1",
+    "emailAndPassword": "Email or password incorrect",
+    "emailRequired": "Email address is required",
+    "passwordRequired": "Password is required",
+    "nthEmailAndPassword": "E-mail of wachtwoord onjuist",
+    "nthSignIn": "Inloggen"
+}
