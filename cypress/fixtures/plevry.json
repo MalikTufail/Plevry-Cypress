@@ -1,13 +1,14 @@
 {
-    "email": "dummyEmail@email.com",
-    "password": "@Admin1234",
-    "emailCapital": "dummyEmail@email.com",
+    "email": "demo@email.com",
+    "password": "@Admin1",
+    "emailCapital": "DEMO@email.com",
     "passwordCapital": "@ADMIN1234",
-    "invalidEmail": "dummyEmail@plevry.com",
+    "invalidEmail": "test123.admin@plevry.com",
     "invalidPassword": "Aav@bacaaca1",
     "emailAndPassword": "Email or password incorrect",
     "emailRequired": "Email address is required",
     "passwordRequired": "Password is required",
     "nthEmailAndPassword": "E-mail of wachtwoord onjuist",
-    "nthSignIn": "Inloggen"
+    "nthSignIn": "Inloggen",
+    "passCapitalVal": "Use at least one uppercase letter, one lowercase letter, one number and one special character"
 }

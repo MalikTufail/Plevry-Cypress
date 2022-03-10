@@ -1,8 +1,9 @@
 {
     "login": {
         "username": "input[name='email']",
-        "userPassword": "input[type='password']",
+        "userPassword": "input[name='password']",
         "signIn": "/*//button",
-        "validationLogin": "/*//p[@class='ErrorMessage__StyledParagraph-sc-182nu82-0 bkluXT']"
+        "validationLogin": "/*//p[@class='ErrorMessage__StyledParagraph-sc-182nu82-0 bkluXT']",
+        "showHideIcon": "/*//input[@name='password']//following-sibling::span"
     }
 }
