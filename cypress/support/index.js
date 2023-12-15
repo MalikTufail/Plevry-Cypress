@@ -18,3 +18,24 @@ import './commands'
 require('cypress-xpath')
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+const mysql = require('mysql');
+function queryTestDb(query, config) {
+  const connection = mysql.createConnection(config.env.db)
+  connection.connect()
+  return new Promise((resolve, reject) => {
+      connection.query(query, (err, results) => {
+          if(err) reject(err);
+          else {
+              connection.end();
+              return resolve(results);
+          }
+      })
+  })
+}
+module.exports = (on, config) => {
+  on('task', {
+      queryDb: (query) => {
+          return queryTestDb(query, config)
+      },
+  });
+};

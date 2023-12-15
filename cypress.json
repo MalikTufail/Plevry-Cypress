@@ -1,3 +1,11 @@
 {
-    "baseUrl": "Dummy Website"
+    "baseUrl": "Dummy Website",
+        "env": {
+            "db": {
+                "host": "localhost",
+                "user": "root",
+                "password": "",
+                "database": "cypress_test"
+            }
+        }
 }
